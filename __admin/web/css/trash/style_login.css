@@ -1,0 +1,149 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #444444;
+	background-color: #fafafa;
+}
+
+#log_top_border {
+	border: 0px solid red;
+	position: absolute;
+	float: left;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #dedede;
+	z-index: 1;
+}
+
+#log_top_div {
+	border: 0px solid red;
+	position: absolute;
+	background-image: url(../images/login_top_bg.jpg);
+	float: left;
+	width: 100%;
+	height: 75px;
+	color: #ffffff;
+	z-index: 10;
+}
+
+#log_top_div_on {
+	border: 0px solid red;
+	position: absolute;
+	float: left; 
+	margin-left: 170px;
+	width: 205px;
+	height: 170px;
+	background-image: url(../images/login_logo_bg.png);
+	z-index: 10;
+}
+
+#log_center_div {
+	border: 0px solid red;
+	float: left;
+	width: 100%;
+	height: 150px;
+	
+}
+
+#log_center_div_on {
+	border: 1px solid #d1d4d6;
+	margin: auto;
+	width: 650px;
+	height: 300px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 25px 0px #ccc;
+	-moz-box-shadow: 0px 0px 25px 0px #ccc;
+	-webkit-box-shadow: 0px 0px 25px 0px #ccc;
+}
+
+#log_bottom_div {
+	border: 0px solid red;
+	position: absolute;
+	background-image: url(../images/login_bottom_bg.png);
+	background-position: top;
+	background-repeat: repeat-x;
+	float: left;
+	width: 100%;
+	height: 70px;
+	bottom: 0px;
+}
+
+#log_bottom_div_on {
+	border: 0px solid red;
+	margin: auto;
+	width: 450px;
+	height: 15px;
+}
+
+#login_txt {
+	border: 0px solid red;
+	font-size: 25px;
+	padding: 20px 0 20px 20px;
+	color: #cccccc;
+	float: left;
+	width: 97%;
+}
+
+#login_inp_txt {
+	border: 0px solid red;
+	font-size: 12px;
+	padding: 5px 0 5px 20px;
+	color: #555555;
+}
+
+.pass_inp_txt {
+	border: 1px solid #cccccc;
+	width: 380px;
+	height: 35px;
+	font-size: 20px;
+	color: #555555;
+	padding: 1px 7px 1px 7px;
+}
+
+.pass_sub_txt {
+	border: 1px solid #cccccc;
+	width: 80px;
+	height: 35px;
+	font-size: 23px;
+	color: #555555;
+	background: #ffffff;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#pass_inp_div {
+	padding-left: 20px;
+}
+
+#pass_sub_div {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#key_icon {
+	border: 0px solid red;
+	position: absolute;
+	width: 150px;
+	height: 112px;
+	margin-left: 460px;
+	margin-top: 85px;background-image: url(../images/key.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+#login_error {
+	border: 0px solid red;
+	float: left;
+	width: 95%;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #FF0000;
+	font-weight: bold;
+}

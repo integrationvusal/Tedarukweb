@@ -1,0 +1,452 @@
+/* .topbar{
+	background-color: #f8f8f8;
+	padding:20px 0;
+	
+} */
+
+.headtop{
+	background: #fff url(../img/buta2.png) left top repeat;
+}
+
+.pt60 {
+	padding-top: 60px;
+}
+
+#header{
+	margin-top:21px;
+}
+
+.date-time {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    font-size: 10px;
+    background: #009900;
+    padding:5px 10px;
+    display: inline;
+}
+
+.date-time .fa {
+    margin-right: 5px;
+}
+
+.topbar{
+	background: transparent;
+	padding: 10px 0;	
+	color:#fff;
+	font-family:'DejaVuSans';
+}
+
+
+.topbar .col-lg-5,
+.topbar .col-md-5 {
+	padding-left: 0;
+}
+ 
+.topbar .col-md-6,
+.topbar .col-lg-6 {
+	padding-right: 0;	
+}
+
+
+.topbar .left-text {
+	background: #009900;
+	padding:10px;
+	border-radius: 0 15px 15px 0;
+	margin-left: -15px; 
+}
+
+.topbar .right-text {
+	background: #009900;
+	padding:5px;
+	border-radius: 15px 0 0 15px;
+	margin-right: -15px; 
+	position: relative;
+}
+
+.topbar .right-text h3:first-child{
+    font-size:24px;
+    text-align:center;
+}
+
+.topbar .right-text h3:first-child ~ .text-right{
+    padding-right:100px;    
+}
+
+
+.topbar .left-text h3{
+	margin:0;	
+	font-size: 28px;	
+	font-weight: bold;
+	font-style: italic;	
+	line-height:1;
+	padding: 14px 0;
+	font-family: calibri;
+}
+
+.topbar .right-text h3{
+	margin:0;	
+	font-size: 28px;	
+	font-weight: bold;	
+	line-height:1;
+	 font-family: 'DejaVuSansCondensed-Bold';
+}
+
+.topbar .right-text p{	
+	font-size: 18px;
+	font-style: italic;
+	line-height:1;
+}
+
+.topbar .logo {
+	position: relative;
+}
+
+.topbar .logo img {
+	width: 180px;
+	margin-bottom: 10px;
+	padding-right: 5px;
+}
+
+
+.topbar .logo .name  {
+	position: absolute;
+	top: 124px; /****/
+    right: -140px; /****/
+    white-space: nowrap; /****/
+}
+
+.topbar .logo .name h4 {
+	color: #000;
+	font-weight: bold;
+	font-size: 17.5px;
+	 font-family: 'DejaVuSansCondensed-Bold';
+}
+
+.topbar table {
+	margin-right: 133px;
+	width: 70%;
+}
+
+.topbar .sosial-icons {
+
+}
+
+.topbar .sosial-icons .fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+
+.topbar .sosial-icons .fa:hover {
+    opacity: 0.7;
+}
+
+.topbar .sosial-icons .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.topbar .sosial-icons .fa-instagram {
+  background: #ff6600;
+  color: white;
+}
+
+.topbar .sosial-icons .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.topbar .lang {
+	margin-top: 8px;
+}
+
+.topbar .lang img {
+	/* border-radius: 50%; */
+	margin-right: 5px;
+}
+
+.topbar .lang a {
+	font-size: 12px;
+	color: #009900;
+	font-weight: bold;
+}
+
+.topbar .lang a.active,
+.topbar .lang a:hover,
+.topbar .lang a:focus {	
+	color: red;
+}
+
+
+.topbar input[type="text"] {
+	border: 1px solid #009900;
+	border-radius: 4px;
+}
+
+.topbar button.btn {
+	background: #009900;
+	color: #fff;
+	height: 34px;
+	padding:0 10px;
+}
+
+
+
+#header.fixed {
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	top:0;
+	margin-top:0;
+	box-shadow: 1px 1px 1px;
+	background: #fff;
+}
+
+
+
+
+
+#history, #activity, #leaders, #news {
+	padding:50px 0;
+}
+
+#activity {
+	background: #f3f3f3;
+}
+
+
+.about-us-text h2 {
+   	margin-bottom: 25px;
+   // font-family: 'Droid Sans', sans-serif;
+    font-size: 24px;
+    color: #5d5d5d;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+    text-align: center;
+}
+
+.about-us-text img {
+   width: 50%;
+   float: left;
+   margin-right: 20px;
+   margin-bottom: 10px;
+}
+
+.single img {
+	width: 300px;
+	margin:0 20px 20px 0;
+	float: left;
+}
+
+.single h3 {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.single p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+
+.news-list li {
+	padding: 15px 15px 20px 15px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #009900;
+    //font-family: 'Droid Sans'
+}
+
+.news-list li p {
+	color: #009900;
+}
+
+.news-info h3 {
+	line-height: normal;
+}
+
+.news-info img {
+	text-align: left;
+	margin:20px 0;
+	width: 100%;
+}
+
+.news-info p {
+	text-align: justify;
+	margin-bottom: 10px;
+	line-height: normal;
+	font-size: 18px;
+	line-height: inherit;
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #009900;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color:  #009900;
+    border-color:  #009900;
+}
+
+
+footer .input-group {
+    border: 1px solid #ccc;
+}
+
+
+
+.modal-header img {
+	width: 100px;
+}
+
+.modal-title {
+	font-size: 18px;
+	color: #000;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.modal-body p {
+	font-size: 18px;
+	color: #000;
+	font-family: sans-serif;
+	text-align: justify;
+	margin-bottom: 10px;
+	text-indent: 20px;
+}
+
+.modal-body table {
+	font-size: 18px;
+	color: #000;
+	font-family: sans-serif;
+	width: 100%;
+	margin:50px 0;
+}
+
+.modal-body table td:nth-child(1) {
+	width: 30%;
+	font-size: 16px;
+}
+
+
+.modal-body table td:nth-child(2) {
+	width: 70%;
+}
+
+#law table {
+	margin:50px 0;
+	font-size: 16px;
+	color:#009900;
+}
+
+#law table tr:nth-child(1) {
+	font-size: 18px;
+	background: #009900;
+	color: #fff;
+}
+
+#law table td {
+	vertical-align: middle;
+}
+
+@media (max-width: 1430px) {
+
+	.topbar .left-text h3{		
+		font-size: 22px;	/****/
+	}
+}
+
+
+@media (max-width: 1320px) {
+
+	.topbar .logo .name h4 {
+    	color: #000;
+	    font-weight: bold;
+	    font-size: 22px;
+	}
+}
+
+
+@media (max-width: 1200px) {
+
+	.topbar .left-text {
+		width: 100%;
+	}
+
+	.topbar .logo .name  {
+		position: static;
+		text-align: center;
+		margin-top: 20px;
+	}
+}
+
+
+
+@media (max-width: 991px) {
+
+	.topbar h4, .topbar form {
+		text-align:center;
+		margin-left: 0px;
+	}
+
+	.topbar .logo {
+	    position: relative;
+	    margin: 20px 0;
+	}
+
+	.topbar .logo .name  {
+		white-space: normal;
+	}
+
+	.topbar .right-text {
+		padding-right: 20px;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+.slider-2-text {
+    padding: 0;
+}
+
+.topbar form {
+	text-align:center;
+}
+
+.topbar input {
+	margin:0 0 20px 0;
+}
+
+.topbar table {
+	margin-right: 0;
+	width: 100%;
+}
+
+.topbar table td {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+	
+
+}

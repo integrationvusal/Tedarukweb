@@ -1,0 +1,236 @@
+body {
+    background: url(../../images/bg.gif) repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, #page {
+    height: 100%;
+}
+
+body > #page {
+    height: auto;
+    min-height: 100%;
+    /*width: 990px;*/
+	width: 638px;
+    margin: 0 auto;
+}
+
+#nonfooter {
+    padding-top: 1px;
+    padding-bottom: 27px;
+}
+
+footer {
+    background-color: #8b7736;
+    color: #fff;
+    font-size: 12px;
+    height: 27px;
+    position: relative;
+    margin-top: -27px;
+    clear: both;
+}
+
+.footer_wrap {
+    width: 630px;
+    position: relative;
+    margin: 0 auto;
+}
+.footer_wrap p{
+	text-align: center; 
+	padding-top: 6px; 
+	font-size: 10px;
+}
+
+footer .left {
+    position: absolute;
+    left: 150px;
+    top: 8px;
+    bottom: 10px;
+    font-size: 10px;
+}
+
+footer .right {
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    font-size: 14px;
+}
+
+footer .right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* #aLoginRules {text-decoration: underline;} */
+
+header {position: relative;}
+
+header #logo {/*position: absolute; width: 137px; height: 126px; top: 33px; left: 12px;*/ height: 126px; margin: 0 auto; margin-top: 33px; margin-bottom: 50px; background: url('../../images/logo_az.png') center center no-repeat;}
+#logo{
+	width: 334px;
+    padding: 5px 49px;
+}
+
+header h3 {text-align: center; font-weight: bold; font-size: 16px; line-height: 22px; color: #8b7736;margin-bottom:25px;}
+
+#main_form {padding-top: 50px; font-size: 12px; line-height: 14px; padding-bottom: 80px;}
+
+.closePopup {position: absolute; width: 32px; height: 32px; right: -16px; top: -16px; background: url(../img/close_button.png) right top no-repeat;}
+
+.form_row {margin-bottom: 10px;}
+
+.form_label {/*display: inline-block;*/ display: block; /*width: 360px;*/ vertical-align: middle; margin: 20px 0 10px 0; font-size: 14px;}
+
+input.form_input {width: 412px; /*border: none;*/ border: 1px solid #fff; background: #fff; border-radius: 3px; color: #000;  /*line-height: 45px;padding-left: 10px;*/padding:15px 10px;}
+
+textarea.form_input {width: 606px; height: 60px; font-family: Arial, sans-serif; font-size: 12px; /*border: none;*/ border: 1px solid #fff; border-radius: 3px; resize: none; padding-top: 16px; padding-bottom: 10px; padding-left: 10px; vertical-align: middle;}
+
+.form_multiple_input_set {display: inline; vertical-align: middle;}
+
+.form_multiple_input_set input:first-child {margin-left: 0;}
+
+.form_multiple_input_set input {width: 185px; border: 1px solid #fff; background: #fff; border-radius: 3px; color: #000; height: 45px; padding-left: 10px; margin-left: 10px;}
+
+.form_input_error {border: 1px solid #c00 !important;}
+
+p.form_error_explanation {color: #c00; margin: 10px 0 0 0;}
+
+.form_input_wrap {display: inline;}
+
+/*.form_input_wrap input {margin-left: 10px;}*/
+
+.form_input_wrap select {/*border: none;*/ border: 1px solid #fff; border-radius: 3px; padding: 14px 35px;}
+
+.form_sector {width: 185px; border: 1px solid #fff; background: #fff; border-radius: 3px; color: #666; height: 45px; padding-left: 8px; /*padding-top: 13px;*/}
+
+.form_phone_tri_num {width: 60px; /*border: none;*/ border: 1px solid #fff; background: #fff; border-radius: 3px; color: #000; height: 45px; padding-left: 40px;}
+
+.form_phone_kod {width: 60px; /*border: none;*/ border: 1px solid #fff; background: #fff; border-radius: 3px; color: #000; height: 45px; padding-left: 40px;}
+
+.form_controls {text-align: right;}
+
+.form_phone_di_num {width: 40px; /*border: none;*/ border: 1px solid #fff; background: #fff; border-radius: 3px; color: #000; height: 45px; padding-left: 25px;}
+
+.form_input_phone_code {width: 90px; border: 1px solid #fff; background: #fff; border-radius: 3px; color: #000; height: 45px; padding-left: 10px; margin-right: 10px;}
+
+.form_input_phone_number {width: 180px; border: 1px solid #fff; background: #fff; border-radius: 3px; color: #000; height: 45px; padding-left: 10px;}
+
+.form_input_captcha {width: 290px; border: 1px solid #fff; background: #fff; border-radius: 3px; color: #000; height: 45px; padding-left: 10px;}
+
+p.form_tip {color: #8b7736; font-size: 12px; margin: 10px auto 0; text-align: left; width: 410px;}
+p.form_tip a {color: #8b7736;}
+p.form_tip strong {font-weight: bold;}
+
+#btnLogin {background: #6ec5e7; border: none; border-radius: 3px; color: #fff; padding: 17px 35px; margin: 0 113px 0 0; text-transform: uppercase; font-weight: bold; cursor: pointer; }
+#btnLogin:active { background-color: #0066FF; opacity: 0.7;}
+#btnLogin:link {background-color: #6ec5e7;}
+
+#btnRegister {background: #6ec5e7; border: none; border-radius: 3px; color: #fff; padding: 17px 35px; margin: 143px 18px 0 0; text-transform: uppercase; font-weight: bold; cursor: pointer;}
+#btnRegister:active { background-color: #0066FF; opacity: 0.7;}
+#btnRegister:link {background-color: #6ec5e7;}
+
+#aUserAgreementSubmitButton {background: #6ec5e7; border: none; border-radius: 3px; color: #fff; padding: 17px 35px; margin: 0 auto; margin-top: 10px; text-transform: uppercase; font-weight: bold; cursor: pointer; display: inline-block; text-decoration: none;}
+#aUserAgreementSubmitButton:active {background-color: #0066FF;}
+#aUserAgreementSubmitButton.disabled {background-color: #ccc;}
+
+.choose_file {background: #6ec5e7;}
+.choose_file:active {background: #0066FF; opacity: 0.7;}
+.choose_file:link {background-color: #6ec5e7;}
+
+.login_lang_switch a {color: #8b7736;}
+.login_lang_switch span {/* color: #888; */}
+
+.login_form_linkset div {padding-bottom: 5px;}
+.login_form_linkset a {color: #8b7736; font-size: 13px;}
+.login_form_linkset a.bottom_links {font-size: 16px; text-transform: uppercase; font-weight: bold; text-decoration: none;}
+.login_form_linkset a.bottom_links:hover {text-decoration: underline;}
+
+
+
+#divLoginRulesContent {width: 600px; padding: 20px; border-radius: 10px; background: #fff;}
+.rulesContentWrapper h3 {font-weight: bold; margin: 20px; text-align: center;}
+.rulesContentWrapper strong {font-weight: bold;}
+/*.rulesContentWrapper p {margin: 10px;}*/
+
+.rulesContentWrapper h4 {color: #8b7736; font-size: 16px; font-weight: bold; margin: 0 0 10px;}
+.rulesContentWrapper p {font-size: 14px; margin: 10px 0; text-align: justify;}
+
+.rulesContentWrapper em {font-style: italic;}
+
+
+
+
+
+
+
+p.error {text-align: center; font-size: 14px; color: #c00; margin-bottom: 10px;}
+
+
+#print_card {margin-top: 50px;}
+
+#print_card h2 {text-align: center; font-size: 16px; line-height: 22px; color: #8b7736; text-transform: uppercase; font-weight: bold; margin-top: 50px;}
+
+#print_card p {text-align: center; font-size: 14px; line-height: 18px; /*color: #8b7736;*/ color: #0a0;}
+
+#coupon {margin-top: 30px; border: 1px dashed #8b7736; background: #f0f0f0; padding: 10px;}
+
+#coupon table caption {padding: 10px 0; background: #fff;}
+
+#coupon table td {vertical-align: middle;}
+
+.coupon_photo {display: inline-block; width: 150px; margin-right: 10px; float: left;}
+
+.coupon_photo img {width: 150px; height: 200px;}
+
+.coupon_user_data {display: inline-block; width: 448px; vertical-align: top;}
+
+.coupon_user_data table {width: 100%;}
+
+.coupon_parent_data {display: inline-block; width: 448px; /* margin-right: 10px; */ vertical-align: top;}
+
+.coupon_parent_data table {width: 100%;}
+
+.coupon_child_data {display: inline-block; width: 290px; vertical-align: top;}
+
+.coupon_child_data table {width: 100%;}
+
+.coupon_exam_data {display: block; margin-top: 10px;}
+
+.coupon_exam_data table {width: 100%; margin: 0 auto;}
+
+#coupon table {font-size: 12px; line-height: 14px;}
+
+#coupon tr:nth-child(even) {background: #fff; color: #000;}
+
+#coupon tr:nth-child(odd) {background: #8b7736; color: #fff;}
+
+#coupon th {text-align: left; font-weight: bold; vertical-align: top; padding: 5px 0 5px 5px;}
+
+.coupon_parent_data th {width: 120px;}
+
+.coupon_child_data th {width: 120px;}
+
+#coupon td {vertical-align: bottom; padding: 5px 0 5px 5px;}
+
+.coupon_parent_data td {width: 165px;}
+
+.coupon_child_data td {width: 165px;}
+
+#coupon p {font-size: 14px; line-height: 18px;}
+
+#coupon .coupon_label {color: #8b7736; display: inline-block; vertical-align: top; width: 360px; font-weight: bold;}
+
+#coupon .coupon_entry {display: inline-block; vertical-align: top;}
+
+.coupon_additional_info {margin-top: 50px;}
+
+.coupon_controls {margin-bottom: 50px; text-align: right;}
+
+.coupon_controls a {display: inline-block; background: #6ec5e7; border: none; border-radius: 3px; color: #fff; padding: 17px 11px; margin: 30px 0 0 0; text-transform: uppercase; font-weight: bold; cursor: pointer; text-decoration: none;}
+.align_center{
+	text-align: center;
+}
+.error_desc{
+	color:#c00;
+	text-align:center;
+}
